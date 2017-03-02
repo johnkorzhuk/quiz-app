@@ -13,36 +13,19 @@
     <p>Test your CSS knowledge</p>
   </header>
   <main>
-    <div class="container container-styles">
-      <div class="question-container">
-        <div class="question">
-          <h2>How do we give a border to an element rounded corners?</h2>
-        </div>
-        <div class="choices">
-          <div class="choice answer"><i class="fa fa-check icon"></i><button>border-radius</button></div>
-          <div class="choice wrong"><i class="fa fa-times icon"></i><button>border-edge</button></div>
-          <div class="choice"><button>border-roundness</button></div>
-          <div class="choice"><button>border-corner</button></div>
-        </div>
-      </div>
-    </div>
-    <div class="container info-container">
-      <div class="info">
-        Score: 
-        <span>5</span>
-        correct
-        <span>2</span>
-        incorrect
+    <div class="container">
+      <div class="start-container js-start-container">
+        <p>
+          A 6 question quiz designed to test your CSS knowledge. Be aware only the most advanced 
+          front-end developers get all questions right. 
+        </p>
+        <button class="start js-start" id="start"><strong>Begin!</strong></button>
       </div>
 
-      <div class="info">
-        Question 
-        <span>7</span>
-        of
-        <span>10</span>
-      </div>
+      <section class="quiz hidden">
+        
+      </section>
     </div>
-    
   </main>
   <script
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
